@@ -9,23 +9,46 @@
 </head>
 <body>
 
-    <nav class="navbar-personalizada">
-        <div class="container-flex">
-            <div class="logo">
-    <img src="LogoDanix.jpg" alt="Logo Danix" class="img-logo-personalizado">
-</div>
-            <ul class="menu-navegacion">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#acerca">Acerca de</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-personalizada">
+    <div class="container">
+
+        <!-- Logo -->
+        <a class="navbar-brand" href="#inicio">
+            <img src="https://raw.githubusercontent.com/AleinadSerrot/Modulo2-AE4/refs/heads/main/assets/LogoSoftSkullTiendita.png"
+                 alt="Logo Danix"
+                 height="50">
+        </a>
+
+        <!-- botón hamburguesa -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#menuNavbar" aria-controls="menuNavbar"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- menú -->
+        <div class="collapse navbar-collapse" id="menuNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#acerca">Acerca de</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
             </ul>
         </div>
-    </nav>
+
+    </div>
+</nav>
+
 
     <header id="inicio" class="encabezado-principal">
         <div class="container">
             <h1 class="texto-bienvenida">Bienvenido a Soft Skull Store</h1> <!-- nombre tentativo de mi tiendita -->
-            <p class="mision-texto">TEXTO DESCRIPTIVO DE LA TIENDITA</p>
+            <p class="mision-texto">Nuestra misión es ofrecer arte cute, geek y spooky de alta calidad, transformando ideas digitales en experiencias visuales únicas </p>
         </div>
     </header>
 
